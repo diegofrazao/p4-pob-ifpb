@@ -1,0 +1,59 @@
+[EL Fine]: server: 2020-12-19 01:03:04.086--Thread(Thread[main,5,main])--Configured server platform: org.eclipse.persistence.platform.server.NoServerPlatform
+[EL Config]: metadata: 2020-12-19 01:03:04.186--ServerSession(1259769769)--Thread(Thread[main,5,main])--The access type for the persistent class [class modelo.Veiculo] is set to [FIELD].
+[EL Config]: metadata: 2020-12-19 01:03:04.211--ServerSession(1259769769)--Thread(Thread[main,5,main])--The target entity (reference) class for the one to many mapping element [field aluguel] is being defaulted to: class modelo.Aluguel.
+[EL Config]: metadata: 2020-12-19 01:03:04.213--ServerSession(1259769769)--Thread(Thread[main,5,main])--The access type for the persistent class [class modelo.Aluguel] is set to [FIELD].
+[EL Config]: metadata: 2020-12-19 01:03:04.214--ServerSession(1259769769)--Thread(Thread[main,5,main])--The target entity (reference) class for the many to one mapping element [field veiculo] is being defaulted to: class modelo.Veiculo.
+[EL Config]: metadata: 2020-12-19 01:03:04.214--ServerSession(1259769769)--Thread(Thread[main,5,main])--The target entity (reference) class for the many to one mapping element [field cliente] is being defaulted to: class modelo.Cliente.
+[EL Config]: metadata: 2020-12-19 01:03:04.216--ServerSession(1259769769)--Thread(Thread[main,5,main])--The access type for the persistent class [class modelo.Cliente] is set to [FIELD].
+[EL Config]: metadata: 2020-12-19 01:03:04.22--ServerSession(1259769769)--Thread(Thread[main,5,main])--The target entity (reference) class for the one to many mapping element [field aluguel] is being defaulted to: class modelo.Aluguel.
+[EL Config]: metadata: 2020-12-19 01:03:04.221--ServerSession(1259769769)--Thread(Thread[main,5,main])--The alias name for the entity class [class modelo.Veiculo] is being defaulted to: Veiculo.
+[EL Config]: metadata: 2020-12-19 01:03:04.231--ServerSession(1259769769)--Thread(Thread[main,5,main])--The column name for element [ano] is being defaulted to: ANO.
+[EL Config]: metadata: 2020-12-19 01:03:04.232--ServerSession(1259769769)--Thread(Thread[main,5,main])--The column name for element [modelo] is being defaulted to: MODELO.
+[EL Config]: metadata: 2020-12-19 01:03:04.232--ServerSession(1259769769)--Thread(Thread[main,5,main])--The column name for element [placa] is being defaulted to: PLACA.
+[EL Config]: metadata: 2020-12-19 01:03:04.232--ServerSession(1259769769)--Thread(Thread[main,5,main])--The alias name for the entity class [class modelo.Aluguel] is being defaulted to: Aluguel.
+[EL Config]: metadata: 2020-12-19 01:03:04.232--ServerSession(1259769769)--Thread(Thread[main,5,main])--The column name for element [valorDiaria] is being defaulted to: VALORDIARIA.
+[EL Config]: metadata: 2020-12-19 01:03:04.233--ServerSession(1259769769)--Thread(Thread[main,5,main])--The column name for element [dataAluguel] is being defaulted to: DATAALUGUEL.
+[EL Config]: metadata: 2020-12-19 01:03:04.233--ServerSession(1259769769)--Thread(Thread[main,5,main])--The column name for element [dataDevolucao] is being defaulted to: DATADEVOLUCAO.
+[EL Config]: metadata: 2020-12-19 01:03:04.233--ServerSession(1259769769)--Thread(Thread[main,5,main])--The column name for element [versao] is being defaulted to: VERSAO.
+[EL Config]: metadata: 2020-12-19 01:03:04.234--ServerSession(1259769769)--Thread(Thread[main,5,main])--The alias name for the entity class [class modelo.Cliente] is being defaulted to: Cliente.
+[EL Config]: metadata: 2020-12-19 01:03:04.234--ServerSession(1259769769)--Thread(Thread[main,5,main])--The column name for element [endereco] is being defaulted to: ENDERECO.
+[EL Config]: metadata: 2020-12-19 01:03:04.235--ServerSession(1259769769)--Thread(Thread[main,5,main])--The column name for element [nome] is being defaulted to: NOME.
+[EL Config]: metadata: 2020-12-19 01:03:04.242--ServerSession(1259769769)--Thread(Thread[main,5,main])--The primary key column name for the mapping element [field veiculo] is being defaulted to: _id.
+[EL Config]: metadata: 2020-12-19 01:03:04.242--ServerSession(1259769769)--Thread(Thread[main,5,main])--The foreign key column name for the mapping element [veiculo] is being defaulted to: VEICULO__id.
+[EL Config]: metadata: 2020-12-19 01:03:04.242--ServerSession(1259769769)--Thread(Thread[main,5,main])--The primary key column name for the mapping element [field cliente] is being defaulted to: _id.
+[EL Config]: metadata: 2020-12-19 01:03:04.243--ServerSession(1259769769)--Thread(Thread[main,5,main])--The foreign key column name for the mapping element [cliente] is being defaulted to: CLIENTE__id.
+[EL Config]: metadata: 2020-12-19 01:03:04.255--ServerSession(1259769769)--Thread(Thread[main,5,main])--The primary key column name for the mapping element [field aluguel] is being defaulted to: _id.
+[EL Config]: metadata: 2020-12-19 01:03:04.256--ServerSession(1259769769)--Thread(Thread[main,5,main])--The foreign key column name for the mapping element [aluguel] is being defaulted to: ALUGUEL__id.
+[EL Config]: metadata: 2020-12-19 01:03:04.256--ServerSession(1259769769)--Thread(Thread[main,5,main])--The primary key column name for the mapping element [field aluguel] is being defaulted to: _id.
+[EL Config]: metadata: 2020-12-19 01:03:04.256--ServerSession(1259769769)--Thread(Thread[main,5,main])--The foreign key column name for the mapping element [aluguel] is being defaulted to: ALUGUEL__id.
+[EL Info]: 2020-12-19 01:03:04.285--ServerSession(1259769769)--Thread(Thread[main,5,main])--EclipseLink, version: Eclipse Persistence Services - 2.7.7.v20200504-69f2c2b80d
+[EL Fine]: connection: 2020-12-19 01:03:04.287--ServerSession(1259769769)--Connection(1578009262)--Thread(Thread[main,5,main])--connecting(EISLogin(
+	platform=> MongoPlatform
+	user name=> ""
+	MongoConnectionSpec()
+))
+[EL Config]: connection: 2020-12-19 01:03:04.679--ServerSession(1259769769)--Connection(1825419935)--Thread(Thread[main,5,main])--Connected: 
+	User: 
+	Database: 4.4.2  Version: 4.4.2
+[EL Fine]: connection: 2020-12-19 01:03:04.71--ServerSession(1259769769)--Thread(Thread[main,5,main])--/file:/D:/@IFPB/p4-POB/Projeto3/target/classes/_eclipselink-mongodb login successful
+[EL Fine]: sql: 2020-12-19 01:03:04.861--ServerSession(1259769769)--Connection(1825419935)--Thread(Thread[main,5,main])--Executing MappedInteraction()
+	spec => null
+	properties => {mongo.operation=FIND, mongo.collection=CLIENTE}
+	input => [DatabaseRecord(
+	$sort => DatabaseRecord(
+	CLIENTE.NOME => 1))]
+[EL Fine]: sql: 2020-12-19 01:03:04.902--ServerSession(1259769769)--Connection(1825419935)--Thread(Thread[main,5,main])--Executing MappedInteraction()
+	spec => null
+	properties => {mongo.operation=FIND, mongo.collection=VEICULO}
+	input => [DatabaseRecord(
+	$sort => DatabaseRecord(
+	VEICULO._id => 1))]
+[EL Fine]: sql: 2020-12-19 01:03:04.908--ServerSession(1259769769)--Connection(1825419935)--Thread(Thread[main,5,main])--Executing MappedInteraction()
+	spec => null
+	properties => {mongo.operation=FIND, mongo.collection=ALUGUEL}
+	input => [DatabaseRecord(
+	$sort => DatabaseRecord(
+	ALUGUEL._id => 1))]
+[EL Fine]: connection: 2020-12-19 01:03:04.916--ServerSession(1259769769)--Connection(1825419935)--Thread(Thread[main,5,main])--disconnect
+[EL Fine]: connection: 2020-12-19 01:03:04.917--ServerSession(1259769769)--Thread(Thread[main,5,main])--/file:/D:/@IFPB/p4-POB/Projeto3/target/classes/_eclipselink-mongodb logout successful
+[EL Fine]: connection: 2020-12-19 01:03:04.917--ServerSession(1259769769)--Connection(1825419935)--Thread(Thread[main,5,main])--disconnect
